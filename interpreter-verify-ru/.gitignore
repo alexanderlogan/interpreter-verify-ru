@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and transcripts (may contain PHI)
+logs/
+*.log
+transcripts/
+
+# Whisper model cache (large files, re-downloaded as needed)
+models/
+
+# PyInstaller build artifacts
+*.spec
+
+# Environment variables (may contain API keys)
+.env

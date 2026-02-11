@@ -1,0 +1,20 @@
+# Interpreter-Verify-RU Dependencies
+# Install: pip install -r requirements.txt
+
+# Audio capture (Windows WASAPI loopback)
+PyAudioWPatch>=0.2.12
+
+# Numerical processing
+numpy>=1.24.0
+
+# Speech-to-text (Whisper)
+faster-whisper>=1.0.0
+
+# Fuzzy string matching (drug name detection)
+rapidfuzz>=3.0.0
+
+# HTTP requests to Ollama API
+requests>=2.28.0
+
+# Audio resampling (high quality)
+soxr>=0.3.0

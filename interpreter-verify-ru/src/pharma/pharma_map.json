@@ -1,0 +1,1201 @@
+{
+  "schema_version": "2.0",
+  "generated": "2026-02-09",
+  "source_references": [
+    "Vidal.ru (Russian pharmaceutical reference)",
+    "RLS.ru (Russian drug registry)",
+    "WHO ATC Classification System",
+    "PMC/PubMed antimicrobial dispensing studies (Russia)",
+    "Statista: Most prescribed antibiotics in Russia 2020",
+    "BMC Pharmacology: Antibiotic use practices in Saint Petersburg"
+  ],
+  "entry_count": 44,
+  "categories": {
+    "russian_popular": "Medications commonly used in Russia with no direct US equivalent or unique risk profile",
+    "us_common": "US medications frequently discussed in EN-RU medical interpreting",
+    "antibiotics": "Antibiotics with Russian trade names differing from US brands",
+    "antihypertensives": "Blood pressure medications with Russian trade name variants",
+    "nsaids_analgesics": "Pain/anti-inflammatory medications popular in Russia",
+    "false_friends": "Terms that sound similar in EN/RU but have different medical meanings"
+  },
+  "medications": [
+    {
+      "id": "RU-001",
+      "ru_trade_name": "Корвалол",
+      "ru_trade_name_latin": "Corvalol",
+      "active_ingredients": [
+        "Phenobarbital",
+        "Ethyl bromisovalerianate",
+        "Peppermint oil"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "No direct equivalent",
+        "generic_name": "Phenobarbital (component)",
+        "notes": "Phenobarbital is Schedule IV in US. Corvalol is a combination sedative/antispasmodic widely used in Russia for heart palpitations and anxiety."
+      },
+      "therapeutic_class": "Sedative / Antispasmodic",
+      "atc_code": "N05CM",
+      "fda_status": "NOT_APPROVED",
+      "clinical_warnings": [
+        "Contains Phenobarbital (Schedule IV controlled substance in US)",
+        "Banned for import into US",
+        "Chronic use causes barbiturate dependence",
+        "CRITICAL: Must disclose to anesthesiologist before any surgery"
+      ],
+      "common_indications_ru": "Тахикардия, бессонница, невроз, спазмы кишечника",
+      "interpreter_notes": "Extremely common in Russian households. Patients may not consider it a 'real medication' and fail to disclose. Always ask specifically."
+    },
+    {
+      "id": "RU-002",
+      "ru_trade_name": "Анальгин",
+      "ru_trade_name_latin": "Analgin",
+      "active_ingredients": [
+        "Metamizole sodium (Dipyrone)"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "No US equivalent (withdrawn)",
+        "generic_name": "Metamizole",
+        "notes": "Withdrawn from US market in 1977. Still widely available OTC in Russia."
+      },
+      "therapeutic_class": "Analgesic / Antipyretic",
+      "atc_code": "N02BB02",
+      "fda_status": "WITHDRAWN",
+      "clinical_warnings": [
+        "Withdrawn from US market in 1977 due to agranulocytosis risk",
+        "Risk of severe blood disorder (agranulocytosis): 1 in 1,500 to 1 in 100,000",
+        "Banned or restricted in 30+ countries including US, UK, Sweden, Japan"
+      ],
+      "common_indications_ru": "Головная боль, зубная боль, лихорадка, боли в суставах",
+      "interpreter_notes": "One of the most commonly used analgesics in Russia. US providers will not recognize it. Explain it is metamizole/dipyrone, withdrawn in the US."
+    },
+    {
+      "id": "RU-003",
+      "ru_trade_name": "Но-шпа",
+      "ru_trade_name_latin": "No-Shpa",
+      "active_ingredients": [
+        "Drotaverine hydrochloride"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "No direct equivalent",
+        "generic_name": "Drotaverine",
+        "notes": "Not FDA approved. Smooth muscle relaxant (antispasmodic). Closest US concept: Dicyclomine (Bentyl) for GI spasms, but different mechanism."
+      },
+      "therapeutic_class": "Antispasmodic",
+      "atc_code": "A03AD02",
+      "fda_status": "NOT_APPROVED",
+      "clinical_warnings": [
+        "Not FDA approved, not available in US pharmacies",
+        "Widely used in Russia for menstrual cramps, GI spasms, urinary colic",
+        "Hypotension risk in elderly patients"
+      ],
+      "common_indications_ru": "Спазмы ЖКТ, менструальные боли, почечная колика, спазмы мочевыводящих путей",
+      "interpreter_notes": "Extremely popular in Russia, especially among women. US providers will not know this drug. Explain mechanism and indication."
+    },
+    {
+      "id": "RU-004",
+      "ru_trade_name": "Валидол",
+      "ru_trade_name_latin": "Validol",
+      "active_ingredients": [
+        "Menthyl isovalerate (Menthol solution in menthyl ester of isovaleric acid)"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "No equivalent",
+        "generic_name": "None",
+        "notes": "Sublingual tablet used in Russia for chest pain and anxiety. Has NO proven cardiac efficacy. Purely a reflex sedative via menthol receptors."
+      },
+      "therapeutic_class": "Reflex Vasodilator / Sedative",
+      "atc_code": "C01EX",
+      "fda_status": "NOT_APPROVED",
+      "clinical_warnings": [
+        "HIGH RISK: No proven efficacy for angina or cardiac conditions",
+        "Patients may use Validol INSTEAD of nitroglycerin for chest pain",
+        "If patient reports using Validol for chest pain, flag for cardiac workup",
+        "Delays appropriate treatment for acute coronary syndrome"
+      ],
+      "common_indications_ru": "Боли в сердце, тревожность, тошнота, укачивание",
+      "interpreter_notes": "CRITICAL: If patient says they take Validol for chest pain, this is a clinical red flag. It has no cardiac efficacy. The provider needs to know."
+    },
+    {
+      "id": "RU-005",
+      "ru_trade_name": "Цитрамон",
+      "ru_trade_name_latin": "Citramon",
+      "active_ingredients": [
+        "Aspirin (Acetylsalicylic acid)",
+        "Acetaminophen (Paracetamol)",
+        "Caffeine"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Excedrin Extra Strength",
+        "generic_name": "Aspirin / Acetaminophen / Caffeine",
+        "notes": "Very similar composition to Excedrin. Note: original Soviet Citramon also contained Phenacetin (carcinogen, removed in modern formulations)."
+      },
+      "therapeutic_class": "Analgesic / Antipyretic",
+      "atc_code": "N02BA71",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "Contains Aspirin: risk of GI bleeding, Reye syndrome in children",
+        "Contains Acetaminophen: hepatotoxicity risk if combined with other paracetamol products",
+        "Historical formulations contained Phenacetin (carcinogen, now removed)"
+      ],
+      "common_indications_ru": "Головная боль, мигрень, зубная боль, боли в суставах, простуда",
+      "interpreter_notes": "Direct equivalent is Excedrin. Patients may not realize it contains Aspirin, which matters for bleeding risk and pre-surgical assessment."
+    },
+    {
+      "id": "RU-006",
+      "ru_trade_name": "Мезим",
+      "ru_trade_name_latin": "Mezym",
+      "active_ingredients": [
+        "Pancreatin (Lipase, Amylase, Protease)"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Creon / Zenpep",
+        "generic_name": "Pancrelipase",
+        "notes": "US equivalents (Creon, Zenpep) require prescription. Mezym is OTC in Russia. Dosing may differ."
+      },
+      "therapeutic_class": "Digestive Enzyme Supplement",
+      "atc_code": "A09AA02",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "US equivalents are Rx-only (Creon, Zenpep, Pancreaze)",
+        "Mezym is OTC in Russia, patients may self-dose",
+        "High doses may cause hyperuricemia"
+      ],
+      "common_indications_ru": "Нарушения пищеварения, хронический панкреатит, переедание, вздутие",
+      "interpreter_notes": "Very common OTC in Russia. US equivalent requires prescription. Inform provider of the patient's self-medication."
+    },
+    {
+      "id": "RU-007",
+      "ru_trade_name": "Арбидол",
+      "ru_trade_name_latin": "Arbidol",
+      "active_ingredients": [
+        "Umifenovir"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "No US equivalent",
+        "generic_name": "Umifenovir",
+        "notes": "Russian antiviral. Efficacy not recognized by FDA, EMA, or WHO. Classified as 'insufficient evidence' by Cochrane review."
+      },
+      "therapeutic_class": "Antiviral (disputed efficacy)",
+      "atc_code": "J05AX13",
+      "fda_status": "NOT_APPROVED",
+      "clinical_warnings": [
+        "Efficacy not recognized by FDA, EMA, or WHO",
+        "Widely prescribed in Russia for influenza and COVID-19",
+        "Cochrane review: insufficient evidence of clinical benefit",
+        "Patients may believe they are 'protected' and delay seeking care"
+      ],
+      "common_indications_ru": "Грипп, ОРВИ, профилактика вирусных инфекций, COVID-19",
+      "interpreter_notes": "Very commonly taken in Russia, especially during flu season. US providers will not recognize it. Explain it is a Russian antiviral with disputed efficacy internationally."
+    },
+    {
+      "id": "RU-008",
+      "ru_trade_name": "Фенотропил",
+      "ru_trade_name_latin": "Phenotropil",
+      "active_ingredients": [
+        "Phenylpiracetam (Fonturacetam)"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "No US equivalent",
+        "generic_name": "Phenylpiracetam",
+        "notes": "Nootropic. Banned by WADA (World Anti-Doping Agency). Not FDA approved. Used in Russia for cognitive enhancement and fatigue."
+      },
+      "therapeutic_class": "Nootropic",
+      "atc_code": "N06BX",
+      "fda_status": "NOT_APPROVED",
+      "clinical_warnings": [
+        "WADA banned substance (doping violation in competitive sports)",
+        "Not FDA approved",
+        "Stimulant properties may interact with other CNS medications",
+        "Patients may not disclose as they consider it a 'supplement'"
+      ],
+      "common_indications_ru": "Когнитивные нарушения, астения, утомляемость, депрессия",
+      "interpreter_notes": "Nootropics are a major drug category in Russia with no US equivalent market. Patients may use several nootropics simultaneously."
+    },
+    {
+      "id": "RU-009",
+      "ru_trade_name": "Аллохол",
+      "ru_trade_name_latin": "Allochol",
+      "active_ingredients": [
+        "Dry bile",
+        "Garlic extract",
+        "Nettle leaf extract",
+        "Activated charcoal"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "No equivalent",
+        "generic_name": "None",
+        "notes": "Choleretic (bile flow stimulant). No equivalent category in US pharmacy. Closest concept: bile salt supplements (OTC, niche)."
+      },
+      "therapeutic_class": "Choleretic",
+      "atc_code": "A05AX",
+      "fda_status": "NOT_APPROVED",
+      "clinical_warnings": [
+        "Contains animal bile (potential allergen)",
+        "Contraindicated in acute hepatitis, jaundice, cholelithiasis",
+        "No US equivalent category"
+      ],
+      "common_indications_ru": "Хронический гепатит, дискинезия желчевыводящих путей, запоры",
+      "interpreter_notes": "Choleretics are a common medication category in Russia with no real US equivalent. Explain the concept: stimulates bile production to aid digestion."
+    },
+    {
+      "id": "RU-010",
+      "ru_trade_name": "Нафтизин",
+      "ru_trade_name_latin": "Naphthyzin",
+      "active_ingredients": [
+        "Naphazoline"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Privine (largely discontinued)",
+        "generic_name": "Naphazoline",
+        "notes": "Naphazoline exists in the US but is rarely used and largely discontinued for nasal use. Oxymetazoline (Afrin) is the US standard."
+      },
+      "therapeutic_class": "Nasal Decongestant (Alpha-adrenergic agonist)",
+      "atc_code": "R01AA08",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "Extremely high addiction potential (rhinitis medicamentosa)",
+        "Rebound congestion after 3-5 days of use",
+        "Russian patients may use for months/years continuously",
+        "Pediatric overdose risk: potentially fatal in children"
+      ],
+      "common_indications_ru": "Заложенность носа, ринит, синусит",
+      "interpreter_notes": "Naphthyzin addiction is a recognized problem in Russia. If patient mentions chronic nasal spray use, flag it."
+    },
+    {
+      "id": "RU-011",
+      "ru_trade_name": "Пенталгин",
+      "ru_trade_name_latin": "Pentalgin",
+      "active_ingredients": [
+        "Paracetamol",
+        "Naproxen",
+        "Caffeine",
+        "Drotaverine",
+        "Pheniramine maleate"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "No direct equivalent",
+        "generic_name": "Multi-component analgesic",
+        "notes": "5-component analgesic. No US equivalent with this combination. Components exist individually in US. Risk of double-dosing paracetamol."
+      },
+      "therapeutic_class": "Combination Analgesic",
+      "atc_code": "N02BE71",
+      "fda_status": "NOT_APPROVED",
+      "clinical_warnings": [
+        "Contains Paracetamol: hepatotoxicity risk if combined with other acetaminophen products",
+        "Contains Naproxen: GI bleeding risk",
+        "5 active ingredients increase drug interaction risk",
+        "Older formulation contained Codeine (now reformulated)"
+      ],
+      "common_indications_ru": "Головная боль, зубная боль, менструальные боли, невралгия, миалгия",
+      "interpreter_notes": "Complex multi-drug combination. US provider needs to know ALL 5 components for interaction checking."
+    },
+    {
+      "id": "RU-012",
+      "ru_trade_name": "Мукалтин",
+      "ru_trade_name_latin": "Mukaltin",
+      "active_ingredients": [
+        "Althea root extract (Marshmallow root)"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Mucinex (functional analog)",
+        "generic_name": "Guaifenesin (different mechanism)",
+        "notes": "Both are expectorants but different active ingredients. Mukaltin is herbal (marshmallow root). Mucinex is guaifenesin (synthetic)."
+      },
+      "therapeutic_class": "Herbal Expectorant",
+      "atc_code": "R05CA05",
+      "fda_status": "NOT_APPROVED",
+      "clinical_warnings": [
+        "Herbal product, not FDA evaluated",
+        "Generally well tolerated",
+        "May cause mild GI upset"
+      ],
+      "common_indications_ru": "Кашель с мокротой, бронхит, трахеит",
+      "interpreter_notes": "Very common and inexpensive in Russia. Functional analog is Mucinex but different active ingredient. Low clinical risk."
+    },
+    {
+      "id": "US-001",
+      "ru_trade_name": "Лизиноприл",
+      "ru_trade_name_latin": "Lizinopril",
+      "active_ingredients": [
+        "Lisinopril"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Prinivil / Zestril",
+        "generic_name": "Lisinopril",
+        "notes": "Same drug. Known in Russia by INN name. Russian trade names include Диротон (Diroton) and Лизинотон."
+      },
+      "therapeutic_class": "ACE Inhibitor (Antihypertensive)",
+      "atc_code": "C09AA03",
+      "fda_status": "APPROVED",
+      "clinical_warnings": [
+        "ACE inhibitor cough is common, may be described differently in Russian",
+        "Contraindicated in pregnancy",
+        "Russian trade name Диротон (Diroton) may not be recognized by US providers"
+      ],
+      "common_indications_ru": "Артериальная гипертензия, сердечная недостаточность",
+      "interpreter_notes": "Same drug available in both countries. Watch for Russian trade name Diroton, which US providers will not recognize."
+    },
+    {
+      "id": "US-002",
+      "ru_trade_name": "Омепразол / Омез",
+      "ru_trade_name_latin": "Omeprazol / Omez",
+      "active_ingredients": [
+        "Omeprazole"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Prilosec",
+        "generic_name": "Omeprazole",
+        "notes": "Same drug. Омез (Omez) is a very popular Indian-manufactured brand in Russia. Identical to Prilosec."
+      },
+      "therapeutic_class": "Proton Pump Inhibitor",
+      "atc_code": "A02BC01",
+      "fda_status": "APPROVED",
+      "clinical_warnings": [
+        "Long-term PPI use associated with B12 deficiency, bone fracture risk",
+        "Russian patients may self-medicate for years without monitoring"
+      ],
+      "common_indications_ru": "Язвенная болезнь, ГЭРБ, гастрит, изжога",
+      "interpreter_notes": "Same drug. Omez is the common Russian brand. Straightforward equivalence."
+    },
+    {
+      "id": "AB-001",
+      "ru_trade_name": "Амоксиклав",
+      "ru_trade_name_latin": "Amoksiklav",
+      "active_ingredients": [
+        "Amoxicillin",
+        "Clavulanic acid"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Augmentin",
+        "generic_name": "Amoxicillin / Clavulanate",
+        "notes": "Identical combination. Amoksiklav is the most prescribed antibiotic in Russia (>11% of all antibiotic Rx)."
+      },
+      "therapeutic_class": "Penicillin + Beta-lactamase inhibitor",
+      "atc_code": "J01CR02",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "Penicillin allergy cross-reactivity",
+        "Diarrhea common, C. difficile risk",
+        "Most prescribed antibiotic in Russia per Statista 2020"
+      ],
+      "common_indications_ru": "Инфекции дыхательных путей, отит, синусит, инфекции мочевыводящих путей",
+      "interpreter_notes": "Direct equivalent is Augmentin. Straightforward translation."
+    },
+    {
+      "id": "AB-002",
+      "ru_trade_name": "Сумамед",
+      "ru_trade_name_latin": "Sumamed",
+      "active_ingredients": [
+        "Azithromycin"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Zithromax / Z-Pack",
+        "generic_name": "Azithromycin",
+        "notes": "Same drug. Sumamed is the leading azithromycin brand in Russia (Pliva/Teva). Also sold as Азитрокс, Азитрал."
+      },
+      "therapeutic_class": "Macrolide Antibiotic",
+      "atc_code": "J01FA10",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "QT prolongation risk",
+        "Drug interactions with warfarin, digoxin",
+        "Most self-prescribed antibiotic class in Russia (macrolides at 33%)",
+        "Patients may have taken without prescription"
+      ],
+      "common_indications_ru": "Инфекции дыхательных путей, ангина, отит, урогенитальные инфекции",
+      "interpreter_notes": "Sumamed = Zithromax. Also watch for Азитрокс (Azitrox) and Азитрал (Azitral) which are the same drug."
+    },
+    {
+      "id": "AB-003",
+      "ru_trade_name": "Флемоксин Солютаб",
+      "ru_trade_name_latin": "Flemoxin Solutab",
+      "active_ingredients": [
+        "Amoxicillin"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Amoxil",
+        "generic_name": "Amoxicillin",
+        "notes": "Same drug. Flemoxin Solutab is a dispersible tablet form popular in Russia (especially pediatrics)."
+      },
+      "therapeutic_class": "Aminopenicillin Antibiotic",
+      "atc_code": "J01CA04",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "Penicillin allergy",
+        "Rash risk (especially with EBV/mononucleosis)",
+        "Dispersible form may confuse dosing discussions"
+      ],
+      "common_indications_ru": "Инфекции дыхательных путей, отит, инфекции мочевыводящих путей, H. pylori",
+      "interpreter_notes": "Flemoxin Solutab = Amoxicillin. The 'Solutab' means dispersible tablet. Same active ingredient as Amoxil."
+    },
+    {
+      "id": "AB-004",
+      "ru_trade_name": "Цефтриаксон",
+      "ru_trade_name_latin": "Tseftriakson",
+      "active_ingredients": [
+        "Ceftriaxone"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Rocephin",
+        "generic_name": "Ceftriaxone",
+        "notes": "Same drug. In Russia, often sold as generic Цефтриаксон. Also brand name Азаран (Azaran)."
+      },
+      "therapeutic_class": "Third-generation Cephalosporin",
+      "atc_code": "J01DD04",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "IV/IM only (injection)",
+        "Cephalosporin allergy (cross-reactivity with penicillin ~1-2%)",
+        "Biliary sludge risk",
+        "Do not mix with calcium-containing solutions"
+      ],
+      "common_indications_ru": "Пневмония, менингит, сепсис, инфекции мочевыводящих путей, гонорея",
+      "interpreter_notes": "Same drug as Rocephin. Russian patients may refer to it by generic name. Also watch for Азаран (Azaran)."
+    },
+    {
+      "id": "AB-005",
+      "ru_trade_name": "Ципрофлоксацин / Ципролет",
+      "ru_trade_name_latin": "Tsiprofloksatsin / Tsiprolet",
+      "active_ingredients": [
+        "Ciprofloxacin"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Cipro",
+        "generic_name": "Ciprofloxacin",
+        "notes": "Same drug. Ципролет (Ciprolet) is a common Indian-manufactured brand in Russia."
+      },
+      "therapeutic_class": "Fluoroquinolone Antibiotic",
+      "atc_code": "J01MA02",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "FDA Black Box Warning: tendon rupture, peripheral neuropathy, CNS effects",
+        "Fluoroquinolone resistance is high in Russia",
+        "Drug interactions with antacids, dairy, warfarin",
+        "QT prolongation risk"
+      ],
+      "common_indications_ru": "Инфекции мочевыводящих путей, инфекции ЖКТ, остеомиелит, простатит",
+      "interpreter_notes": "Same drug as Cipro. The FDA black box warnings are critical. Russian prescribing may be more liberal with fluoroquinolones."
+    },
+    {
+      "id": "AB-006",
+      "ru_trade_name": "Левомицетин",
+      "ru_trade_name_latin": "Levomitsetin",
+      "active_ingredients": [
+        "Chloramphenicol"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Chloromycetin (largely discontinued for systemic use)",
+        "generic_name": "Chloramphenicol",
+        "notes": "Rarely used systemically in US due to aplastic anemia risk. Still widely available OTC in Russia as eye drops and tablets."
+      },
+      "therapeutic_class": "Amphenicol Antibiotic",
+      "atc_code": "J01BA01",
+      "fda_status": "APPROVED",
+      "clinical_warnings": [
+        "CRITICAL: Risk of fatal aplastic anemia (idiosyncratic, dose-independent)",
+        "Rarely used systemically in US since the 1960s",
+        "Still used OTC in Russia for GI infections and eye infections",
+        "Gray baby syndrome in neonates"
+      ],
+      "common_indications_ru": "Кишечные инфекции, конъюнктивит, гнойные раны",
+      "interpreter_notes": "HIGH RISK: Levomitsetin is chloramphenicol. If patient is taking it systemically, US provider needs to know immediately. Aplastic anemia risk."
+    },
+    {
+      "id": "AB-007",
+      "ru_trade_name": "Бисептол",
+      "ru_trade_name_latin": "Biseptol",
+      "active_ingredients": [
+        "Trimethoprim",
+        "Sulfamethoxazole"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Bactrim / Septra",
+        "generic_name": "Trimethoprim / Sulfamethoxazole (TMP-SMX)",
+        "notes": "Identical combination. Biseptol is the classic Russian/Eastern European brand name."
+      },
+      "therapeutic_class": "Sulfonamide + Trimethoprim combination",
+      "atc_code": "J01EE01",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "Sulfa allergy (common)",
+        "Stevens-Johnson syndrome risk",
+        "Hyperkalemia risk",
+        "G6PD deficiency: hemolytic anemia risk"
+      ],
+      "common_indications_ru": "Инфекции мочевыводящих путей, бронхит, отит, кишечные инфекции",
+      "interpreter_notes": "Biseptol = Bactrim/Septra. Very well known in Russian-speaking countries. Straightforward equivalence."
+    },
+    {
+      "id": "AB-008",
+      "ru_trade_name": "Левофлоксацин / Таваник",
+      "ru_trade_name_latin": "Levofloksatsin / Tavanik",
+      "active_ingredients": [
+        "Levofloxacin"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Levaquin",
+        "generic_name": "Levofloxacin",
+        "notes": "Same drug. Таваник (Tavanik) is the Sanofi brand sold in Russia."
+      },
+      "therapeutic_class": "Fluoroquinolone Antibiotic",
+      "atc_code": "J01MA12",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "FDA Black Box Warning: tendon rupture, peripheral neuropathy, CNS effects",
+        "QT prolongation",
+        "Heavily used for COVID-19 in Russia (self-medication)",
+        "Drug interactions with antacids, NSAIDs, warfarin"
+      ],
+      "common_indications_ru": "Пневмония, бронхит, синусит, инфекции мочевыводящих путей, COVID-19",
+      "interpreter_notes": "Tavanik = Levaquin. Same FDA black box warnings as ciprofloxacin."
+    },
+    {
+      "id": "AB-009",
+      "ru_trade_name": "Клацид",
+      "ru_trade_name_latin": "Klatsid",
+      "active_ingredients": [
+        "Clarithromycin"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Biaxin",
+        "generic_name": "Clarithromycin",
+        "notes": "Same drug. Клацид (Klacid) is the Abbott brand used in Russia."
+      },
+      "therapeutic_class": "Macrolide Antibiotic",
+      "atc_code": "J01FA09",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "QT prolongation",
+        "Significant CYP3A4 interactions (statins, benzodiazepines)",
+        "Metallic taste common side effect",
+        "FDA warning: increased risk of heart problems years after use"
+      ],
+      "common_indications_ru": "Инфекции дыхательных путей, H. pylori (в комбинации), инфекции кожи",
+      "interpreter_notes": "Klacid = Biaxin. Used heavily in H. pylori triple therapy in Russia."
+    },
+    {
+      "id": "AB-010",
+      "ru_trade_name": "Цефиксим / Супракс",
+      "ru_trade_name_latin": "Tsefiksim / Supraks",
+      "active_ingredients": [
+        "Cefixime"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Suprax",
+        "generic_name": "Cefixime",
+        "notes": "Same drug, same brand name. Супракс is transliterated directly."
+      },
+      "therapeutic_class": "Third-generation Cephalosporin (oral)",
+      "atc_code": "J01DD08",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "Cephalosporin allergy",
+        "Oral third-gen cephalosporin: use contributes to ESBL resistance",
+        "GI side effects common"
+      ],
+      "common_indications_ru": "Инфекции дыхательных путей, отит, инфекции мочевыводящих путей, гонорея",
+      "interpreter_notes": "Supraks = Suprax. One of the few brand names that transliterate directly."
+    },
+    {
+      "id": "AB-011",
+      "ru_trade_name": "Ампициллин",
+      "ru_trade_name_latin": "Ampitsillin",
+      "active_ingredients": [
+        "Ampicillin"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Principen (largely discontinued oral form)",
+        "generic_name": "Ampicillin",
+        "notes": "Same drug. Still widely used in Russia (oral and injection). Largely replaced by amoxicillin in US outpatient practice."
+      },
+      "therapeutic_class": "Aminopenicillin Antibiotic",
+      "atc_code": "J01CA01",
+      "fda_status": "APPROVED",
+      "clinical_warnings": [
+        "Penicillin allergy",
+        "Less bioavailable orally than amoxicillin",
+        "Rash with EBV/mononucleosis",
+        "Still commonly prescribed in Russia where amoxicillin might be preferred in US"
+      ],
+      "common_indications_ru": "Инфекции дыхательных путей, менингит, эндокардит, инфекции мочевыводящих путей",
+      "interpreter_notes": "Same drug exists in US but is used less frequently in outpatient settings. Provider may switch to amoxicillin."
+    },
+    {
+      "id": "AB-012",
+      "ru_trade_name": "Фурадонин",
+      "ru_trade_name_latin": "Furadonin",
+      "active_ingredients": [
+        "Nitrofurantoin"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Macrobid / Macrodantin",
+        "generic_name": "Nitrofurantoin",
+        "notes": "Same drug. Фурадонин is a very commonly self-prescribed UTI treatment in Russia."
+      },
+      "therapeutic_class": "Nitrofuran Antibiotic",
+      "atc_code": "J01XE01",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "Pulmonary toxicity with long-term use",
+        "Peripheral neuropathy risk",
+        "Contraindicated in renal impairment (GFR <30)",
+        "Frequently self-prescribed by Russian women for UTI"
+      ],
+      "common_indications_ru": "Инфекции мочевыводящих путей, цистит",
+      "interpreter_notes": "Furadonin = Macrobid. Very commonly self-treated in Russia for UTIs without seeing a doctor."
+    },
+    {
+      "id": "AH-001",
+      "ru_trade_name": "Энап",
+      "ru_trade_name_latin": "Enap",
+      "active_ingredients": [
+        "Enalapril"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Vasotec",
+        "generic_name": "Enalapril",
+        "notes": "Same drug. Энап (Enap) is the dominant enalapril brand in Russia (KRKA). Also sold as Ренитек, Берлиприл."
+      },
+      "therapeutic_class": "ACE Inhibitor",
+      "atc_code": "C09AA02",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "ACE inhibitor cough",
+        "Angioedema risk",
+        "Contraindicated in pregnancy",
+        "Hyperkalemia risk"
+      ],
+      "common_indications_ru": "Артериальная гипертензия, сердечная недостаточность",
+      "interpreter_notes": "Enap = Vasotec (enalapril). One of the most prescribed antihypertensives in Russia. Also watch for Ренитек (Renitec) and Берлиприл (Berlipril)."
+    },
+    {
+      "id": "AH-002",
+      "ru_trade_name": "Конкор",
+      "ru_trade_name_latin": "Concor",
+      "active_ingredients": [
+        "Bisoprolol"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Zebeta",
+        "generic_name": "Bisoprolol",
+        "notes": "Same drug. Конкор (Concor) by Merck is the dominant bisoprolol brand in Russia. Also sold as Коронал, Бисопролол."
+      },
+      "therapeutic_class": "Beta-1 Selective Blocker",
+      "atc_code": "C07AB07",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "Do NOT stop abruptly (rebound tachycardia/hypertension)",
+        "Bradycardia risk",
+        "Mask hypoglycemia in diabetics",
+        "Bronchospasm in asthmatics at higher doses"
+      ],
+      "common_indications_ru": "Артериальная гипертензия, ИБС, хроническая сердечная недостаточность, аритмия",
+      "interpreter_notes": "Concor = Zebeta (bisoprolol). Extremely common in Russia. Also watch for Коронал (Coronal)."
+    },
+    {
+      "id": "AH-003",
+      "ru_trade_name": "Капотен",
+      "ru_trade_name_latin": "Capoten",
+      "active_ingredients": [
+        "Captopril"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Capoten",
+        "generic_name": "Captopril",
+        "notes": "Same drug, same brand name. Widely used in Russia as sublingual emergency antihypertensive for hypertensive crises."
+      },
+      "therapeutic_class": "ACE Inhibitor",
+      "atc_code": "C09AA01",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "Used sublingually in Russia for hypertensive crises (not standard US practice)",
+        "Rapid blood pressure drop can cause stroke in elderly",
+        "ACE inhibitor cough and angioedema risk",
+        "Short-acting: requires multiple daily doses"
+      ],
+      "common_indications_ru": "Гипертонический криз, артериальная гипертензия, сердечная недостаточность",
+      "interpreter_notes": "Same brand name in both countries. Important: Russian patients often take it sublingually for 'crisis' situations, which is a different usage pattern than US standard."
+    },
+    {
+      "id": "AH-004",
+      "ru_trade_name": "Лозап",
+      "ru_trade_name_latin": "Lozap",
+      "active_ingredients": [
+        "Losartan"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Cozaar",
+        "generic_name": "Losartan",
+        "notes": "Same drug. Лозап (Lozap) is a common Eastern European brand (Zentiva). Also sold as Лориста, Козаар, Лозартан."
+      },
+      "therapeutic_class": "Angiotensin II Receptor Blocker (ARB)",
+      "atc_code": "C09CA01",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "Contraindicated in pregnancy",
+        "Hyperkalemia risk (especially with ACE inhibitors or K-sparing diuretics)",
+        "Less cough than ACE inhibitors"
+      ],
+      "common_indications_ru": "Артериальная гипертензия, диабетическая нефропатия, сердечная недостаточность",
+      "interpreter_notes": "Lozap = Cozaar (losartan). Also watch for Лориста (Lorista) and Козаар."
+    },
+    {
+      "id": "AH-005",
+      "ru_trade_name": "Нифедипин / Коринфар",
+      "ru_trade_name_latin": "Nifedipin / Corinfar",
+      "active_ingredients": [
+        "Nifedipine"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Procardia / Adalat",
+        "generic_name": "Nifedipine",
+        "notes": "Same drug. Коринфар (Corinfar) is a common brand in Russia. Short-acting form still used in Russia for crises (not recommended in US)."
+      },
+      "therapeutic_class": "Calcium Channel Blocker (Dihydropyridine)",
+      "atc_code": "C08CA05",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "SHORT-ACTING nifedipine used sublingually in Russia for crises",
+        "US guidelines: short-acting nifedipine is DANGEROUS, can cause stroke/MI",
+        "Reflex tachycardia",
+        "Extended-release form (Procardia XL) is safe and standard in US"
+      ],
+      "common_indications_ru": "Гипертонический криз, артериальная гипертензия, стенокардия",
+      "interpreter_notes": "CRITICAL: If patient describes taking nifedipine sublingually for 'crisis', alert provider. This practice is discouraged in US due to unpredictable hypotension and stroke risk."
+    },
+    {
+      "id": "AH-006",
+      "ru_trade_name": "Амлодипин / Норваск",
+      "ru_trade_name_latin": "Amlodipin / Norvask",
+      "active_ingredients": [
+        "Amlodipine"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Norvasc",
+        "generic_name": "Amlodipine",
+        "notes": "Same drug. Норваск (Norvasc) is used in both countries. Generic Амлодипин is widely available in Russia."
+      },
+      "therapeutic_class": "Calcium Channel Blocker (Dihydropyridine)",
+      "atc_code": "C08CA01",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "Peripheral edema (common, dose-dependent)",
+        "Dizziness, flushing",
+        "Long half-life: takes 7-8 days to reach steady state"
+      ],
+      "common_indications_ru": "Артериальная гипертензия, стенокардия",
+      "interpreter_notes": "Norvasc is one of the few brands recognized in both countries. Straightforward."
+    },
+    {
+      "id": "AH-007",
+      "ru_trade_name": "Эгилок / Метопролол",
+      "ru_trade_name_latin": "Egilok / Metoprolol",
+      "active_ingredients": [
+        "Metoprolol"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Lopressor / Toprol-XL",
+        "generic_name": "Metoprolol",
+        "notes": "Same drug. Эгилок (Egilok) by Egis is the dominant metoprolol brand in Russia. Also Беталок (Betaloc)."
+      },
+      "therapeutic_class": "Beta-1 Selective Blocker",
+      "atc_code": "C07AB02",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "Do NOT stop abruptly",
+        "Tartrate vs. Succinate formulations have different dosing",
+        "Bradycardia, fatigue, depression risk",
+        "Mask hypoglycemia in diabetics"
+      ],
+      "common_indications_ru": "Артериальная гипертензия, стенокардия, аритмия, профилактика мигрени",
+      "interpreter_notes": "Egilok = Lopressor/Toprol-XL (metoprolol). Also watch for Беталок (Betaloc) and Вазокардин (Vasocardin)."
+    },
+    {
+      "id": "AH-008",
+      "ru_trade_name": "Престариум / Периндоприл",
+      "ru_trade_name_latin": "Prestarium / Perindopril",
+      "active_ingredients": [
+        "Perindopril"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Aceon",
+        "generic_name": "Perindopril",
+        "notes": "Same drug. Престариум (Prestarium) is the Servier brand widely prescribed in Russia."
+      },
+      "therapeutic_class": "ACE Inhibitor",
+      "atc_code": "C09AA04",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "ACE inhibitor cough and angioedema",
+        "Contraindicated in pregnancy",
+        "Often combined with Indapamide in Russia (Нолипрел / Noliprel)"
+      ],
+      "common_indications_ru": "Артериальная гипертензия, сердечная недостаточность, профилактика инсульта",
+      "interpreter_notes": "Prestarium = Aceon (perindopril). Watch for combo drug Нолипрел (Noliprel) = perindopril + indapamide."
+    },
+    {
+      "id": "AH-009",
+      "ru_trade_name": "Анаприлин",
+      "ru_trade_name_latin": "Anaprilin",
+      "active_ingredients": [
+        "Propranolol"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Inderal",
+        "generic_name": "Propranolol",
+        "notes": "Same drug. Анаприлин is the traditional Russian name for propranolol. Very commonly self-prescribed for anxiety and tremor."
+      },
+      "therapeutic_class": "Non-selective Beta Blocker",
+      "atc_code": "C07AA05",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "Non-selective: bronchospasm risk in asthmatics",
+        "Do NOT stop abruptly",
+        "Frequently self-prescribed in Russia for performance anxiety, tremor",
+        "Mask hypoglycemia symptoms"
+      ],
+      "common_indications_ru": "Тахикардия, артериальная гипертензия, тремор, мигрень, тревожность",
+      "interpreter_notes": "Anaprilin = Inderal (propranolol). Commonly taken by Russian patients for anxiety without prescription."
+    },
+    {
+      "id": "AH-010",
+      "ru_trade_name": "Индапамид / Арифон",
+      "ru_trade_name_latin": "Indapamid / Arifon",
+      "active_ingredients": [
+        "Indapamide"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Lozol",
+        "generic_name": "Indapamide",
+        "notes": "Same drug. Арифон (Arifon) is the Servier brand in Russia. Widely prescribed as thiazide-like diuretic."
+      },
+      "therapeutic_class": "Thiazide-like Diuretic",
+      "atc_code": "C03BA11",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "Hypokalemia risk",
+        "Hyponatremia (especially elderly)",
+        "Gout exacerbation",
+        "Often combined with perindopril (Нолипрел / Noliprel)"
+      ],
+      "common_indications_ru": "Артериальная гипертензия, отёки при сердечной недостаточности",
+      "interpreter_notes": "Arifon = Lozol (indapamide). Also common in combo Нолипрел (perindopril + indapamide)."
+    },
+    {
+      "id": "NS-001",
+      "ru_trade_name": "Найз / Нимесил",
+      "ru_trade_name_latin": "Naiz / Nimesil",
+      "active_ingredients": [
+        "Nimesulide"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "No US equivalent (never approved)",
+        "generic_name": "Nimesulide",
+        "notes": "Never approved by FDA. Withdrawn in several EU countries due to hepatotoxicity. Still widely available OTC in Russia."
+      },
+      "therapeutic_class": "COX-2 preferential NSAID",
+      "atc_code": "M01AX17",
+      "fda_status": "NOT_APPROVED",
+      "clinical_warnings": [
+        "CRITICAL: Hepatotoxicity risk (liver failure reported)",
+        "Never approved by FDA",
+        "Withdrawn or restricted in Finland, Spain, Ireland, and others",
+        "Still OTC in Russia, India, and many other countries",
+        "Patients may not disclose as they consider it routine"
+      ],
+      "common_indications_ru": "Боли в суставах, зубная боль, головная боль, менструальные боли, лихорадка",
+      "interpreter_notes": "HIGH RISK: Nimesulide is NOT available in US and has been withdrawn in parts of Europe for liver damage. If patient is taking Найз or Нимесил, provider must know."
+    },
+    {
+      "id": "NS-002",
+      "ru_trade_name": "Кеторол / Кетанов",
+      "ru_trade_name_latin": "Ketorol / Ketanov",
+      "active_ingredients": [
+        "Ketorolac"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Toradol",
+        "generic_name": "Ketorolac",
+        "notes": "Same drug. In US, ketorolac is limited to max 5 days (injection/oral). In Russia, Кеторол and Кетанов are widely used OTC for longer periods."
+      },
+      "therapeutic_class": "NSAID (potent analgesic)",
+      "atc_code": "M01AB15",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "US: Max 5 days total use due to GI bleeding and renal risk",
+        "Russian patients may take for weeks (exceeding safe US limits)",
+        "Most potent NSAID analgesic (rivals opioids for pain)",
+        "GI bleeding, renal impairment, platelet inhibition"
+      ],
+      "common_indications_ru": "Сильная боль (зубная, послеоперационная, травматическая), невралгия",
+      "interpreter_notes": "Ketorol/Ketanov = Toradol (ketorolac). If patient reports prolonged use, flag for provider. US limits to 5 days max."
+    },
+    {
+      "id": "NS-003",
+      "ru_trade_name": "Диклофенак / Вольтарен / Ортофен",
+      "ru_trade_name_latin": "Diklofenak / Voltaren / Ortofen",
+      "active_ingredients": [
+        "Diclofenac"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Voltaren",
+        "generic_name": "Diclofenac",
+        "notes": "Same drug. Available in US as Rx oral and OTC topical gel. In Russia, all forms including oral and injectable are widely available."
+      },
+      "therapeutic_class": "NSAID",
+      "atc_code": "M01AB05",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "Cardiovascular risk (MI, stroke) with prolonged use",
+        "GI bleeding risk",
+        "Injectable form commonly used in Russia (rare in US outpatient)",
+        "Ортофен (Ortofen) is an older Soviet-era brand name still in use"
+      ],
+      "common_indications_ru": "Артрит, остеохондроз, боли в спине, послеоперационные боли, подагра",
+      "interpreter_notes": "Voltaren brand is known in both countries. Watch for Ортофен (Ortofen), an older Soviet-era brand US providers will not recognize."
+    },
+    {
+      "id": "NS-004",
+      "ru_trade_name": "Нурофен / Ибупрофен",
+      "ru_trade_name_latin": "Nurofen / Ibuprofen",
+      "active_ingredients": [
+        "Ibuprofen"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Advil / Motrin",
+        "generic_name": "Ibuprofen",
+        "notes": "Same drug. Нурофен (Nurofen) by Reckitt is the dominant ibuprofen brand in Russia."
+      },
+      "therapeutic_class": "NSAID",
+      "atc_code": "M01AE01",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "GI bleeding risk",
+        "Renal impairment with chronic use",
+        "Cardiovascular risk with prolonged high-dose use",
+        "Drug interaction with aspirin (reduces cardioprotective effect)"
+      ],
+      "common_indications_ru": "Головная боль, зубная боль, менструальные боли, лихорадка, артрит",
+      "interpreter_notes": "Nurofen = Advil/Motrin (ibuprofen). Straightforward. Universal familiarity."
+    },
+    {
+      "id": "NS-005",
+      "ru_trade_name": "Кетонал",
+      "ru_trade_name_latin": "Ketonal",
+      "active_ingredients": [
+        "Ketoprofen"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Orudis (largely discontinued in US)",
+        "generic_name": "Ketoprofen",
+        "notes": "Same drug. Ketoprofen OTC was removed from US market. Still widely used in Russia in oral, injectable, and topical forms."
+      },
+      "therapeutic_class": "NSAID",
+      "atc_code": "M01AE03",
+      "fda_status": "APPROVED",
+      "clinical_warnings": [
+        "Photosensitivity (especially topical gel)",
+        "GI bleeding risk",
+        "OTC form discontinued in US (still Rx)",
+        "Injectable form common in Russia"
+      ],
+      "common_indications_ru": "Артрит, остеохондроз, послеоперационные боли, травмы, невралгия",
+      "interpreter_notes": "Ketonal = ketoprofen (Orudis). Exists in US but less commonly used. Provider will recognize the generic name."
+    },
+    {
+      "id": "NS-006",
+      "ru_trade_name": "Мелоксикам / Мовалис",
+      "ru_trade_name_latin": "Meloksikam / Movalis",
+      "active_ingredients": [
+        "Meloxicam"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Mobic",
+        "generic_name": "Meloxicam",
+        "notes": "Same drug. Мовалис (Movalis) is the Boehringer Ingelheim brand in Russia. 20+ years of use in Russian clinical practice."
+      },
+      "therapeutic_class": "NSAID (COX-2 preferential)",
+      "atc_code": "M01AC06",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "Lower GI risk than non-selective NSAIDs",
+        "Cardiovascular risk with prolonged use",
+        "Renal impairment risk",
+        "Popular in Russia for chronic joint disease"
+      ],
+      "common_indications_ru": "Остеоартроз, ревматоидный артрит, анкилозирующий спондилит",
+      "interpreter_notes": "Movalis = Mobic (meloxicam). One of the most commonly used NSAIDs in Russia for chronic conditions."
+    },
+    {
+      "id": "NS-007",
+      "ru_trade_name": "Парацетамол / Панадол",
+      "ru_trade_name_latin": "Paratsetamol / Panadol",
+      "active_ingredients": [
+        "Paracetamol (Acetaminophen)"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "Tylenol",
+        "generic_name": "Acetaminophen",
+        "notes": "Same drug, different naming convention. Russia/Europe: Paracetamol. US: Acetaminophen. Critical distinction for patient communication."
+      },
+      "therapeutic_class": "Analgesic / Antipyretic (non-NSAID)",
+      "atc_code": "N02BE01",
+      "fda_status": "EQUIVALENT_EXISTS",
+      "clinical_warnings": [
+        "NAMING RISK: Paracetamol = Acetaminophen = Tylenol (patient may not realize)",
+        "Hepatotoxicity: max 4g/day (lower in liver disease or alcohol use)",
+        "Present in MANY combination drugs (Pentalgin, Citramon, cold remedies)",
+        "Double-dosing risk when taking multiple combination products"
+      ],
+      "common_indications_ru": "Головная боль, лихорадка, простуда, боли",
+      "interpreter_notes": "CRITICAL NAMING: Patient says 'paracetamol', provider hears unfamiliar term. Translate as 'acetaminophen / Tylenol'. Also flag combination product risk."
+    },
+    {
+      "id": "NS-008",
+      "ru_trade_name": "Аркоксиа",
+      "ru_trade_name_latin": "Arcoxia",
+      "active_ingredients": [
+        "Etoricoxib"
+      ],
+      "us_clinical_analog": {
+        "trade_name": "No US equivalent (FDA declined approval)",
+        "generic_name": "Etoricoxib",
+        "notes": "COX-2 selective inhibitor by Merck. FDA declined approval in 2007 citing cardiovascular concerns. Approved in 60+ countries including Russia."
+      },
+      "therapeutic_class": "COX-2 Selective Inhibitor",
+      "atc_code": "M01AH05",
+      "fda_status": "NOT_APPROVED",
+      "clinical_warnings": [
+        "FDA DECLINED approval (2007) due to cardiovascular risk concerns",
+        "Available in Russia and most of EU",
+        "Same drug class as Vioxx (rofecoxib, withdrawn for heart attack risk)",
+        "Hypertension, edema, cardiovascular event risk"
+      ],
+      "common_indications_ru": "Остеоартроз, ревматоидный артрит, подагра, анкилозирующий спондилит",
+      "interpreter_notes": "NOT available in US. FDA specifically declined approval. Provider needs to know patient is on a COX-2 inhibitor and assess cardiovascular risk."
+    }
+  ],
+  "false_friends": [
+    {
+      "id": "FF-001",
+      "ru_term": "Ангина",
+      "ru_term_latin": "Angina",
+      "ru_meaning": "Sore throat / Tonsillitis (acute inflammation of the tonsils)",
+      "en_false_cognate": "Angina pectoris (chest pain due to coronary artery disease)",
+      "risk_level": "CRITICAL",
+      "clinical_consequence": "Patient says 'ангина' meaning sore throat. Provider hears 'angina' and initiates cardiac workup. Or vice versa: provider asks about 'angina' meaning chest pain, patient denies because they interpret it as sore throat.",
+      "interpreter_guidance": "ALWAYS translate 'ангина' as 'tonsillitis' or 'sore throat', NEVER as 'angina'. If the provider says 'angina', translate as 'боль в груди / стенокардия'."
+    },
+    {
+      "id": "FF-002",
+      "ru_term": "Наркоз",
+      "ru_term_latin": "Narkoz",
+      "ru_meaning": "General anesthesia",
+      "en_false_cognate": "Narcotics / narcotic drugs",
+      "risk_level": "HIGH",
+      "clinical_consequence": "Patient says 'мне делали наркоз' (I was given anesthesia). Provider may hear 'narcotics' and suspect substance use.",
+      "interpreter_guidance": "Translate 'наркоз' as 'general anesthesia', never as 'narcotics'. If provider asks about 'narcotics', translate as 'наркотические вещества / наркотики'."
+    },
+    {
+      "id": "FF-003",
+      "ru_term": "Инсульт",
+      "ru_term_latin": "Insult",
+      "ru_meaning": "Stroke (cerebrovascular accident)",
+      "en_false_cognate": "Insult (offensive remark)",
+      "risk_level": "HIGH",
+      "clinical_consequence": "Patient says 'у меня был инсульт' (I had a stroke). Untrained listener hears 'insult'.",
+      "interpreter_guidance": "Always translate 'инсульт' as 'stroke' or 'CVA'. Never as 'insult'."
+    },
+    {
+      "id": "FF-004",
+      "ru_term": "Интоксикация",
+      "ru_term_latin": "Intoksikatsiya",
+      "ru_meaning": "Poisoning / toxicity (general toxicological term)",
+      "en_false_cognate": "Intoxication (specifically alcohol/drug impairment)",
+      "risk_level": "MEDIUM",
+      "clinical_consequence": "In Russian medical context, 'интоксикация' usually means general poisoning or toxicity (food poisoning, medication toxicity, chemical exposure). In English, 'intoxication' primarily implies alcohol or drug impairment.",
+      "interpreter_guidance": "Translate 'интоксикация' as 'poisoning' or 'toxicity' depending on context. Specify the cause. If alcohol is meant, Russian would say 'алкогольное опьянение'."
+    },
+    {
+      "id": "FF-005",
+      "ru_term": "Рецепт",
+      "ru_term_latin": "Retsept",
+      "ru_meaning": "Prescription (medical)",
+      "en_false_cognate": "Recipe (cooking)",
+      "risk_level": "MEDIUM",
+      "clinical_consequence": "Minor confusion risk. Patient says 'у меня есть рецепт' (I have a prescription). Unlikely to cause clinical harm but can slow communication.",
+      "interpreter_guidance": "Translate 'рецепт' as 'prescription' in medical context."
+    },
+    {
+      "id": "FF-006",
+      "ru_term": "Кабинет",
+      "ru_term_latin": "Kabinet",
+      "ru_meaning": "Doctor's office / examination room",
+      "en_false_cognate": "Cabinet (furniture / political body)",
+      "risk_level": "LOW",
+      "clinical_consequence": "Minimal risk. 'Процедурный кабинет' = treatment room. May cause momentary confusion.",
+      "interpreter_guidance": "Translate 'кабинет' as 'office' or 'examination room' in medical context."
+    },
+    {
+      "id": "FF-007",
+      "ru_term": "Больница",
+      "ru_term_latin": "Bolnitsa",
+      "ru_meaning": "Hospital (inpatient facility)",
+      "en_false_cognate": "None directly, but patients may confuse with 'поликлиника' (polyclinic/outpatient clinic)",
+      "risk_level": "MEDIUM",
+      "clinical_consequence": "Russian healthcare distinguishes between больница (hospital, inpatient) and поликлиника (outpatient clinic). US system does not have a direct 'polyclinic' equivalent. Patients may use terms interchangeably.",
+      "interpreter_guidance": "Clarify: 'больница' = hospital (inpatient), 'поликлиника' = outpatient clinic, 'скорая помощь' = ambulance/ER."
+    },
+    {
+      "id": "FF-008",
+      "ru_term": "Аккуратный",
+      "ru_term_latin": "Akkuratny",
+      "ru_meaning": "Neat, tidy, careful (NOT 'accurate')",
+      "en_false_cognate": "Accurate (precise, correct)",
+      "risk_level": "LOW",
+      "clinical_consequence": "Provider says 'be accurate with dosing'. If transliterated rather than translated, patient may understand 'be neat/tidy' instead of 'be precise'.",
+      "interpreter_guidance": "Translate 'accurate' as 'точный', not 'аккуратный'. Translate 'аккуратный' as 'careful' or 'neat'."
+    },
+    {
+      "id": "FF-009",
+      "ru_term": "Симпатичный",
+      "ru_term_latin": "Simpatichniy",
+      "ru_meaning": "Attractive, nice-looking",
+      "en_false_cognate": "Sympathetic (compassionate / relating to sympathetic nervous system)",
+      "risk_level": "MEDIUM",
+      "clinical_consequence": "In medical context, 'sympathetic' relates to the sympathetic nervous system. If transliterated, could cause confusion in neurological or pharmacological discussion.",
+      "interpreter_guidance": "Translate 'sympathetic nervous system' as 'симпатическая нервная система' (different word). Never transliterate."
+    },
+    {
+      "id": "FF-010",
+      "ru_term": "Патронаж",
+      "ru_term_latin": "Patronazh",
+      "ru_meaning": "Home nursing visit / community health nurse visit (especially for newborns and chronically ill)",
+      "en_false_cognate": "Patronage (support, sponsorship, condescension)",
+      "risk_level": "LOW",
+      "clinical_consequence": "Patient mentions 'патронажная сестра' (community health nurse). May be misunderstood if transliterated.",
+      "interpreter_guidance": "Translate 'патронаж' as 'home nurse visit' or 'community health visit'. 'Патронажная сестра' = 'visiting nurse'."
+    },
+    {
+      "id": "FF-011",
+      "ru_term": "Стаж",
+      "ru_term_latin": "Stazh",
+      "ru_meaning": "Length of work experience / duration of disease",
+      "en_false_cognate": "Stage (as in stage of cancer)",
+      "risk_level": "HIGH",
+      "clinical_consequence": "Doctor asks about disease 'стаж' (how long has the patient had the condition). Could be confused with 'stage' (стадия) of disease. 'Стаж диабета 10 лет' = 'has had diabetes for 10 years', NOT 'stage 10 diabetes'.",
+      "interpreter_guidance": "Translate 'стаж заболевания' as 'duration of illness' or 'how long the patient has had the condition'. 'Стадия' = 'stage'."
+    },
+    {
+      "id": "FF-012",
+      "ru_term": "Обстипация",
+      "ru_term_latin": "Obstipatsiya",
+      "ru_meaning": "Severe/complete constipation (more severe than 'запор')",
+      "en_false_cognate": "Could be confused with 'obstipation' (which exists in English but is rarely used) or misheard as other terms",
+      "risk_level": "LOW",
+      "clinical_consequence": "Minor. The English medical term 'obstipation' does exist and means severe constipation, but is rarely used in everyday clinical practice.",
+      "interpreter_guidance": "Translate as 'severe constipation' or 'complete constipation'. The English cognate exists but explain in plain language."
+    }
+  ],
+  "false_friend_count": 12
+}
