@@ -111,7 +111,7 @@ Close and reopen PowerShell after installing.
 
 ```powershell
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/interpreter-verify-ru.git
+git clone https://github.com/alexanderlogan/interpreter-verify-ru.git
 cd interpreter-verify-ru
 
 # Create a virtual environment (keeps dependencies isolated)
